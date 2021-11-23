@@ -1,0 +1,122 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Kassa - Raselund Honung</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="imgs/honeyLogo4.png" width="200px"></a>
+            </div>
+
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="#prod">Produkter</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                    <li><a href="">Om Oss</a>
+
+                    <li><a href="login.html">Logga in</a></li>
+                </ul>
+
+            </nav>
+            <img src="imgs/cartIcon.jpg" width="20px" height="20px">
+            <img src="imgs/menuicon.jpg" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <!-----För att placera ut en orange linje----->
+    <div class="line"></div>
+
+<!--Cart items details-->
+
+<div class="small-container cart-page">
+
+    <table>
+        <tr>
+            <th>Produkter</th>
+            <th>Antal</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="imgs/redcurrant.jpg">
+                    <div>
+                        <p>Vinbärsgelé 500g</p>
+                        <small>Pris 50SEK</small>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>80SEK</td>
+        </tr>
+    </table>
+
+</div>
+
+    <!--------- footer--------->
+
+    <div class="footer" id="contact">
+        <table style="width: 80%;" class="center">
+            <tr>
+                <th>
+                    <h3>Ring oss gärna på:</h3>
+                </th>
+                <th>
+                    <h3>Besök oss gärna!</h3>
+                </th>
+                <th>
+                    <h3>Beställ på:</h3>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <p>+46 73 178 29 14</p>
+                </td>
+                <td>
+                    <p>Hasslösa Raselund 1</p>
+                </td>
+                <td>
+                    <a href="mailto:rogerpersson1967@hotmail.com">rogerpersson1967@hotmail.com</a>
+
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>+46 73 179 29 19</p>
+                </td>
+                <td>
+                    <p>513 91, Vinninga</p>
+                </td>
+                <td>
+
+                </td>
+            </tr>
+
+        </table>
+
+        <div class="separator">
+            <a href="#top">Till toppen</a>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2021 - Alex Plaza</p>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
